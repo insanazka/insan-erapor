@@ -321,22 +321,30 @@
                     <!-- DataTales Example -->
                     <div class="card shadow mb-4">
                         <div class="card-header py-3">
-                            <h6 class="m-0 font-weight-bold text-primary">Tabel Data Hp</h6>
-                            <div class="dropright mb-4">
-                                <button class="btn btn-primary dropdown-toggle" type="button"
-                                    id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-                                    aria-expanded="false">
-                                    Pilih Tabel
-                                </button>
-                                <div class="dropdown-menu animated--fade-in"
-                                    aria-labelledby="dropdownMenuButton">
-                                    <a class="dropdown-item" href="../table/hp">HP</a>
-                                    <a class="dropdown-item" href="../table/user">User</a>
-                                    <a class="dropdown-item" href="#">Admin</a>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h6 class="m-0 font-weight-bold text-primary">Tabel Data Hp</h6>
+                                <div class="dropright mb-4">
+                                    <button class="btn btn-primary dropdown-toggle" type="button"
+                                        id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                        aria-expanded="false">
+                                        Pilih Tabel
+                                    </button>
+                                    <div class="dropdown-menu animated--fade-in"
+                                        aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="#">PAI</a>
+                                        <a class="dropdown-item" href="#">PPKN</a>
+                                        <a class="dropdown-item" href="#">B.IND</a>
+                                        <a class="dropdown-item" href="#">MAT</a>
+                                        <a class="dropdown-item" href="#">IPA</a>
+                                        <a class="dropdown-item" href="#">IPS</a>
+                                        <a class="dropdown-item" href="#">SBdP</a>
+                                        <a class="dropdown-item" href="#">PJOK</a>
+                                    </div>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalTambah">Tambah Data</button>
                                 </div>
-                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalTambah">Tambah Data</button>
                             </div>
                         </div>
+                        
                         <div class="card-body">
                             <div class="table-responsive">
                                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
