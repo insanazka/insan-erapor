@@ -359,18 +359,32 @@
                                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                                     @yield('container')
                                     <thead>
+                                        <tr class="fw-semibold fs-6 text-muted">
+                                            <th style="vertical-align: middle;text-align: center" rowspan="2">No</th>
+                                            <th style="vertical-align: middle;text-align: center" rowspan="2">Nama</th>
+                                            <th style="vertical-align: middle;text-align: center" rowspan="2">NIS/NISN</th>
+                                            <th style="vertical-align: middle;text-align: center" rowspan="2">JK</th>
+                                            <th style="vertical-align: middle;text-align: center" colspan="8">Penilaian Harian</th>
+                                            <th style="vertical-align: middle;text-align: center" colspan="1">RPH</th>
+                                            <th style="vertical-align: middle;text-align: center" colspan="1">PTS</th>
+                                            <th style="vertical-align: middle;text-align: center" colspan="1">PAS</th>
+                                            <th style="vertical-align: middle;text-align: center" rowspan="2">HPA</th>
+                                            <th style="vertical-align: middle;text-align: center" rowspan="2">PRE</th>
+                                            <th style="vertical-align: middle;text-align: center" rowspan="2">Deskripsi Otomatis</th>
+                                        </tr>
+
                                         <tr class="kolom-kedua">
-                                            <th style="vertical-align: middle;text-align: center" >NISN</th>
-                                            <th style="vertical-align: middle;text-align: center" >Nama</th>
-                                            <th style="vertical-align: middle;text-align: center" >JK</th>
-                                            <th style="vertical-align: middle;text-align: center" >TTL</th>
-                                            <th style="vertical-align: middle;text-align: center" >Tgl Lahir</th>
-                                            <th style="vertical-align: middle;text-align: center" >Agama</th>
-                                            <th style="vertical-align: middle;text-align: center" >Status</th>
-                                            <th style="vertical-align: middle;text-align: center" >Anak Ke-</th>
-                                            <th style="vertical-align: middle;text-align: center" >Alamat</th>
-                                            <th style="vertical-align: middle;text-align: center">Kelas Terima</th>
-                                            <th style="vertical-align: middle;text-align: center">Tgl Terima</th>   
+                                            <th style="vertical-align: middle;text-align: center" >H1</th>
+                                            <th style="vertical-align: middle;text-align: center" >H2</th>
+                                            <th style="vertical-align: middle;text-align: center" >H3</th>
+                                            <th style="vertical-align: middle;text-align: center" >H4</th>
+                                            <th style="vertical-align: middle;text-align: center" >H5</th>
+                                            <th style="vertical-align: middle;text-align: center" >H6</th>
+                                            <th style="vertical-align: middle;text-align: center" >H7</th>
+                                            <th style="vertical-align: middle;text-align: center" >H8</th>
+                                            <th style="vertical-align: middle;text-align: center" >2</th>
+                                            <th style="vertical-align: middle;text-align: center">1</th>
+                                            <th style="vertical-align: middle;text-align: center">1</th>   
                                         </tr>
                                     </thead>
                                 </table>
