@@ -38,7 +38,7 @@
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-laugh-wink"></i>
                 </div>
-                <div class="sidebar-brand-text mx-3">PHONE STORE </div>
+                <div class="sidebar-brand-text mx-3">SD INSAN MULIA </div>
             </a>
 
             <!-- Divider -->
@@ -65,7 +65,7 @@
                     <i class="fas fa-fw fa-table"></i>
                     <span>Pengetahuan</span>
             </a>
-            <a class="nav-link" href="../">
+            <a class="nav-link" href="/keterampilan">
                 <i class="fas fa-fw fa-table"></i>
                 <span>Keterampilan</span>
             </a>
@@ -321,17 +321,11 @@
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
 
-                    <!-- Page Heading -->
-                    <h1 class="h3 mb-2 text-gray-800">Tables</h1>
-                    <p class="mb-4">DataTables is a third party plugin that is used to generate the demo table below.
-                        For more information about DataTables, please visit the <a target="_blank"
-                            href="https://datatables.net">official DataTables documentation</a>.</p>
-
                     <!-- DataTales Example -->
                     <div class="card shadow mb-4">
                         <div class="card-header py-3">
                             <div class="d-flex justify-content-between align-items-center">
-                                <h6 class="m-0 font-weight-bold text-primary">Tabel Data Hp</h6>
+                                <h6 class="m-0 font-weight-bold text-primary">Tabel Data Pengetahuan</h6>
                                 <div class="dropright mb-4">
                                     <button class="btn btn-primary dropdown-toggle" type="button"
                                         id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
@@ -402,7 +396,7 @@
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Your Website 2020</span>
+                        <span>Copyright &copy; Website 2023</span>
                     </div>
                 </div>
             </footer>
@@ -447,7 +441,212 @@
 
     <!-- Modal Tambah -->
     <div class="modal fade" id="ModalTambah" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        @yield('add')
+        <div class="modal-dialog" role="document">
+            <form method="POST" action="hp/create" autocomplete="off" class="sign-up-form">
+                @csrf
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Tambah Data</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+        
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Nama</label>
+                        <input
+                            type="text"
+                            class="form-control"
+                            autocomplete="off"
+                            name="NISN"
+                            required
+                          />
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">NISN</label>
+                        <input
+                            type="text"
+                            class="form-control"
+                            minlength="10"
+                            autocomplete="off"
+                            name="nama siswa"
+                            required
+                          />
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Jenis Kelamin</label>
+                        <input
+                            type="text"
+                            minlength="1"
+                            class="form-control"
+                            autocomplete="off"
+                            name="jk"
+                            required
+                          />
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">H-1</label>
+                        <input
+                            type="number"
+                            minlength=""
+                            class="form-control"
+                            autocomplete="off"
+                            name="h1"
+                            required
+                          />
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">H-2</label>
+                        <input
+                            type="number"
+                            minlength=""
+                            class="form-control"
+                            autocomplete="off"
+                            name="h2"
+                            required
+                          />
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">H-3</label>
+                        <input
+                            type="number"
+                            minlength=""
+                            class="form-control"
+                            autocomplete="off"
+                            name="h3"
+                            required
+                          />
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">H-4</label>
+                        <input
+                            type="number"
+                            minlength=""
+                            class="form-control"
+                            autocomplete="off"
+                            name="h4"
+                            required
+                          />
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">H-5</label>
+                        <input
+                            type="number"
+                            minlength=""
+                            class="form-control"
+                            autocomplete="off"
+                            name="h5"
+                            required
+                          />
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">H-6</label>
+                        <input
+                            type="number"
+                            minlength=""
+                            class="form-control"
+                            autocomplete="off"
+                            name="anakke"
+                            required
+                          />
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">H-7</label>
+                        <input
+                            type="number"
+                            minlength=""
+                            class="form-control"
+                            autocomplete="off"
+                            name="h7"
+                            required
+                          />
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">H-8</label>
+                        <input
+                            type="number"
+                            minlength=""
+                            class="form-control"
+                            autocomplete="off"
+                            name="h8"
+                            required
+                          />
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">RPH [2]</label>
+                        <input
+                            type="number"
+                            minlength=""
+                            class="form-control"
+                            autocomplete="off"
+                            name="rph"
+                            required
+                          />
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">PTS [1]</label>
+                        <input
+                            type="number"
+                            minlength=""
+                            class="form-control"
+                            autocomplete="off"
+                            name="pts"
+                            required
+                          />
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">PAS [1]</label>
+                        <input
+                            type="number"
+                            minlength=""
+                            class="form-control"
+                            autocomplete="off"
+                            name="pas"
+                            required
+                          />
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">HPA</label>
+                        <input
+                            type="number"
+                            minlength=""
+                            class="form-control"
+                            autocomplete="off"
+                            name="hpa"
+                            required
+                          />
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">PRE</label>
+                        <input
+                            type="number"
+                            minlength=""
+                            class="form-control"
+                            autocomplete="off"
+                            name="pre"
+                            required
+                          />
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Deskripsi</label>
+                        <input
+                            type="text"
+                            minlength=""
+                            class="form-control"
+                            autocomplete="off"
+                            name="deskripsi"
+                            required
+                          />
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="submit" value="Sign Up" class="btn btn-primary">Simpan</button>
+                </div>
+                </div>
+            </form>
+        </div>
     </div>
 
     <!-- Bootstrap core JavaScript-->

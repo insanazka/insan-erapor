@@ -32,7 +32,7 @@ class LoginRegisterController extends Controller
 
     public function keterampilan()
     {
-        return view('layouts.auth.register');
+        return view('layouts.auth.keterampilan');
     }
 
     /**
