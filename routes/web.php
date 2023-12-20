@@ -27,5 +27,6 @@ Route::controller(LoginRegisterController::class)->group(function() {
     Route::get('/dashboard', 'dashboard')->name('dashboard');
     Route::get('/pengetahuan', 'pengetahuan')->name('pengetahuan');
     Route::get('/keterampilan', 'keterampilan')->name('keterampilan');
+    Route::get('/register2', 'register2')->name('register2');
     Route::post('/logout', 'logout')->name('logout');
 });

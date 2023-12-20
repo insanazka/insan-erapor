@@ -38,7 +38,7 @@
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-laugh-wink"></i>
                 </div>
-                <div class="sidebar-brand-text mx-3">PHONE STORE </div>
+                <div class="sidebar-brand-text mx-3">SD INSAN MULIA </div>
             </a>
 
             <!-- Divider -->
@@ -65,7 +65,7 @@
                     <i class="fas fa-fw fa-table"></i>
                     <span>Pengetahuan</span>
                 </a>
-                <a class="nav-link" href="../">
+                <a class="nav-link" href="/keterampilan">
                     <i class="fas fa-fw fa-table"></i>
                     <span>Keterampilan</span>
                 </a>
@@ -405,7 +405,67 @@
 
     <!-- Modal Tambah -->
     <div class="modal fade" id="ModalTambah" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        @yield('add')
+        <div class="modal-dialog" role="document">
+            <form method="POST" action="hp/create" autocomplete="off" class="sign-up-form">
+                @csrf
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Tambah Data</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+        
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Nama</label>
+                        <input
+                            type="text"
+                            minlength="10"
+                            class="form-control"
+                            autocomplete="off"
+                            name="nama"
+                            required
+                          />
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Email</label>
+                        <input
+                            type="text"
+                            class="form-control"
+                            autocomplete="off"
+                            name="email"
+                            required
+                          />
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input
+                            type="password"
+                            class="form-control"
+                            autocomplete="off"
+                            name="password"
+                            required
+                          />
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
+                        <input
+                            type="password"
+                            class="form-control"
+                            autocomplete="off"
+                            name="confirm password"
+                            required
+                          />
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="submit" value="Sign Up" class="btn btn-primary">Simpan</button>
+                </div>
+                </div>
+            </form>
+        </div>
     </div>
 
     <!-- Bootstrap core JavaScript-->

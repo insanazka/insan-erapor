@@ -22,6 +22,11 @@ class LoginRegisterController extends Controller
      */
     public function register()
     {
+        return view('layouts.auth.register');
+    }
+
+    public function register2()
+    {
         return view('layouts.auth.register-1');
     }
 
