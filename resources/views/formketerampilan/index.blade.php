@@ -8,25 +8,9 @@
                 <div class="d-flex justify-content-between align-items-center">
                     <h6 class="m-0 font-weight-bold text-primary">Tabel Penilaian Keterampilan</h6>
                     <div class="dropright">
-                        <div class="btn-group">
-                            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Pilih Tabel
-                            </button>
-                            <div class="dropdown-menu animated--fade-in" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">PAI</a>
-                                <a class="dropdown-item" href="#">PPKN</a>
-                                <a class="dropdown-item" href="#">B.IND</a>
-                                <a class="dropdown-item" href="#">MAT</a>
-                                <a class="dropdown-item" href="#">IPA</a>
-                                <a class="dropdown-item" href="#">IPS</a>
-                                <a class="dropdown-item" href="#">SBdP</a>
-                                <a class="dropdown-item" href="#">PJOK</a>
-                            </div>
-                        </div>
-                        <button type="button" class="btn btn-primary ml-2" data-toggle="modal"
+                        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal"
                             data-target="#tambah_keterampilan">Tambah Data</button>
-                        <button type="button" class="btn btn-primary ml-2" onclick="printTable()">Print</button>
+                        <button type="button" class="btn btn-primary btn-sm" onclick="printTable()">Print</button>
                     </div>
                 </div>
             </div>

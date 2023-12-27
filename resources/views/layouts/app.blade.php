@@ -89,6 +89,30 @@
                             <i class="fa fa-bars"></i>
                         </button>
                     </form>
+                    <form>
+                        <div class="card-header py-3">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="dropright">
+                                <div class="btn-group">
+                                    <button class="btn btn-light-outline dropdown-toggle" type="button" id="dropdownMenuButton"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Pilih Mata Pelajaran
+                                    </button>
+                                    <div class="dropdown-menu animated--fade-in" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="www.youtube.com">PAI</a>
+                                        <a class="dropdown-item" href="#">PPKN</a>
+                                        <a class="dropdown-item" href="#">B.IND</a>
+                                        <a class="dropdown-item" href="#">MAT</a>
+                                        <a class="dropdown-item" href="#">IPA</a>
+                                        <a class="dropdown-item" href="#">IPS</a>
+                                        <a class="dropdown-item" href="#">SBdP</a>
+                                        <a class="dropdown-item" href="#">PJOK</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
                     <!-- Topbar Navbar -->
                     <ul class="navbar-nav ml-auto">
                         <div class="topbar-divider d-none d-sm-block"></div>
