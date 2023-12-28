@@ -99,14 +99,14 @@
                                         Pilih Mata Pelajaran
                                     </button>
                                     <div class="dropdown-menu animated--fade-in" aria-labelledby="dropdownMenuButton">
-                                        <a class="dropdown-item" href="www.youtube.com">PAI</a>
-                                        <a class="dropdown-item" href="#">PPKN</a>
-                                        <a class="dropdown-item" href="#">B.IND</a>
-                                        <a class="dropdown-item" href="#">MAT</a>
-                                        <a class="dropdown-item" href="#">IPA</a>
-                                        <a class="dropdown-item" href="#">IPS</a>
-                                        <a class="dropdown-item" href="#">SBdP</a>
-                                        <a class="dropdown-item" href="#">PJOK</a>
+                                        <a class="dropdown-item" href="">PAI</a>
+                                        <a class="dropdown-item" href="">PPKN</a>
+                                        <a class="dropdown-item" href="">B.IND</a>
+                                        <a class="dropdown-item" href="">MAT</a>
+                                        <a class="dropdown-item" href="">IPA</a>
+                                        <a class="dropdown-item" href="">IPS</a>
+                                        <a class="dropdown-item" href="">SBdP</a>
+                                        <a class="dropdown-item" href="">PJOK</a>
                                     </div>
                                 </div>
                             </div>
@@ -126,15 +126,6 @@
                             <!-- Dropdown - User Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
                                 aria-labelledby="userDropdown">
-                                <a class="dropdown-item" href="#">
-                                    <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
-                                    Profile
-                                </a>
-                                <a class="dropdown-item" href="#">
-                                    <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
-                                    Settings
-                                </a>
-                                <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="{{ url('logout') }}" data-toggle="modal"
                                     data-target="#logoutModal">
                                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>

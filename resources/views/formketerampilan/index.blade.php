@@ -29,12 +29,12 @@
                                 </th>
                                 <th style="vertical-align: middle;text-align: center" colspan="8">
                                     Penilaian Harian</th>
-                                <th style="vertical-align: middle;text-align: center" colspan="1">RPH
+                                {{-- <th style="vertical-align: middle;text-align: center" colspan="1">RPH
                                 </th>
                                 <th style="vertical-align: middle;text-align: center" colspan="1">PTS
                                 </th>
                                 <th style="vertical-align: middle;text-align: center" colspan="1">PAS
-                                </th>
+                                </th> --}}
                                 <th style="vertical-align: middle;text-align: center" rowspan="2">HPA
                                 </th>
                                 <th style="vertical-align: middle;text-align: center" rowspan="2">PRE
@@ -54,9 +54,9 @@
                                 <th style="vertical-align: middle;text-align: center">H6</th>
                                 <th style="vertical-align: middle;text-align: center">H7</th>
                                 <th style="vertical-align: middle;text-align: center">H8</th>
-                                <th style="vertical-align: middle;text-align: center">2</th>
+                                {{-- <th style="vertical-align: middle;text-align: center">2</th>
                                 <th style="vertical-align: middle;text-align: center">1</th>
-                                <th style="vertical-align: middle;text-align: center">1</th>
+                                <th style="vertical-align: middle;text-align: center">1</th> --}}
                             </tr>
 
                         </thead>
@@ -77,9 +77,9 @@
                                 <td style="text-align: center;">75</td>
                                 <td style="text-align: center;">82</td>
                                 <!-- RPH, PTS, PAS -->
-                                <td style="text-align: center;">75</td>
+                                {{-- <td style="text-align: center;">75</td>
                                 <td style="text-align: center;">85</td>
-                                <td style="text-align: center;">90</td>
+                                <td style="text-align: center;">90</td> --}}
                                 <!-- Kolom lainnya -->
                                 <td style="text-align: center;">85</td>
                                 <td style="text-align: center;">75</td>
@@ -183,7 +183,7 @@
                                     placeholder="">
                             </div><!--end form-group-->
 
-                            <div class="col-md-1">
+                            {{-- <div class="col-md-1">
                                 <label class="form-label" for="pro-message">RPH 2</label>
                                 <input type="text" class="form-control" id="edt_d" name="edt_d"
                                     placeholder="">
@@ -198,7 +198,7 @@
                             <div class="col-md-1">
                                 <label class="form-label" for="pro-message">PAS 1</label>
                                 <input type="text" class="form-control" id="edt_ss" name="edt_ss"
-                                    placeholder="">
+                                    placeholder=""> --}}
                             </div><!--en form-group-->
                             <div class="col-md-1">
                                 <label class="form-label" for="pro-message">HPA</label>
@@ -299,7 +299,7 @@
                                     placeholder="">
                             </div><!--end form-group-->
 
-                            <div class="col-md-1">
+                            {{-- <div class="col-md-1">
                                 <label class="form-label" for="pro-message">RPH 2</label>
                                 <input type="text" class="form-control" id="d" name="d"
                                     placeholder="">
@@ -315,7 +315,7 @@
                                 <label class="form-label" for="pro-message">PAS 1</label>
                                 <input type="text" class="form-control" id="ss" name="ss"
                                     placeholder="">
-                            </div><!--end form-group-->
+                            </div><!--end form-group--> --}}
                             <div class="col-md-1">
                                 <label class="form-label" for="pro-message">HPA</label>
                                 <input type="text" class="form-control" id="hpa" name="hpa"
